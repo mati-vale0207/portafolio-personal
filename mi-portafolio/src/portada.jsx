@@ -62,7 +62,7 @@ export default function HeroCard() {
           variant="body1"
           sx={{ mb: 3, fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" } }}
         >
-          Bienvenido a mi Universo digital 🌌
+          Bienvenido a mi Universo digital
         </Typography>
         <Button
           variant="contained"

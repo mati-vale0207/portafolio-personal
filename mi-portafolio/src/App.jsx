@@ -3,6 +3,7 @@ import { Container } from "@mui/material";
 import Nav from "./nav";        // tu navbar
 import HeroCard from "./portada"; // tu portada inicial
 import About from "./about";
+import Proyecto from "./proyecto";
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <Container maxWidth="lg" sx={{ mt: 4 }}>
         <HeroCard />
         <About />
+        <Proyecto />
       </Container>
     </>
   );
